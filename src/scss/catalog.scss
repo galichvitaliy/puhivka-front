@@ -1,0 +1,24 @@
+
+.catalog_page{
+    padding-top: 100px;
+}
+
+.catalog_list{
+    .card{
+        margin-bottom: 40px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .catalog_page{
+        padding-top: 30px;
+    }
+    .catalog_list{
+        .card{
+            margin-bottom: 30px;
+        }
+    }
+}
